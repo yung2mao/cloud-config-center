@@ -1,0 +1,6 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://176.222.5.162:10100/eureka
+    register-with-eureka: true
+    fetch-registry: true
