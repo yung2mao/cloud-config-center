@@ -1,0 +1,6 @@
+redis:
+  cluster:
+    nodes: 10.42.52.16:8000,10.42.52.16:8001,10.42.52.16:8002
+    maxTotal: 1000
+    minIdle: 2
+    maxIdle: 10
